@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-
+import { FaLaptopCode } from "react-icons/fa";
 const navItems = [
   { label: "Home", to: "/" },
   { label: "About", to: "/about" },
@@ -24,7 +24,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="logo">
-        <span className="logo-mark">M</span>
+       <span className="logo-mark">
+  <FaLaptopCode />
+</span>
         <h2>
           My <span>Portfolio</span>
         </h2>

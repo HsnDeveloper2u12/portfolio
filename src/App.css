@@ -708,20 +708,7 @@ section:last-child {
   font-size: 0.85rem;
 }
 
-/* Experience — auto-scrolling marquee */
-.experience-section {
-  overflow: hidden;
-  background: var(--bg-soft);
-  border-radius: var(--radius-lg);
-  padding: 50px 0 60px;
-  margin-left: -8vw;
-  margin-right: -8vw;
-  padding-left: 8vw;
-}
 
-.experience-section h2 {
-  margin-left: 0;
-}
 
 .experience-grid {
   display: flex;
@@ -1848,3 +1835,4 @@ section:last-child {
     font-size: 0.9rem;
   }
 }
+

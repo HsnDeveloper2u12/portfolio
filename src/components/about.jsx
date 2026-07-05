@@ -107,7 +107,7 @@ const About = () => {
             <div className="project-image"><img src={grocery3} alt="FYP" /></div>
             <div className="project-content">
               <h3>Full Stack FYP</h3>
-              <p>Developed a comprehensive full-stack application using MERN stack.</p>
+              <p>Designed and developed a scalable full-stack MERN application featuring responsive UI, RESTful APIs, and optimized performance.</p>
             </div>
           </div>
           <div className="project-card">

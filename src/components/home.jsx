@@ -4,8 +4,8 @@ import profile from "../assets/my.jpeg";
 function Home() {
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/Muhammad_Hassan_Ali_CV.pdf";
-    link.download = "Muhammad_Hassan_Ali_CV.pdf";
+    link.href = "/CV Muhammad Hassan Ali.pdf";
+    link.download = "CV Muhammad Hassan Ali.pdf";
     link.click();
   };
 

@@ -3,7 +3,6 @@ import {
   FaCode, FaReact, FaMobileAlt, FaPaintBrush, FaBug, FaBolt,
   FaEnvelope, FaCheckCircle, FaRocket
 } from 'react-icons/fa';
-import { SiFiverr } from 'react-icons/si';
 
 const services = [
   { icon: <FaCode />, text: 'Complete Web Application Development' },
@@ -53,7 +52,7 @@ const faqs = [
   },
   {
     q: 'How can I contact you?',
-    a: 'You can contact me through my email or Fiverr profile listed above.',
+    a: 'You can contact me through my email listed above.',
   },
 ];
 
@@ -81,9 +80,6 @@ function HireMe() {
           <a href="mailto:mhassan2u12@gmail.com" className="btn btn-primary">
             <FaEnvelope /> Email Me
           </a>
-          <a href="https://www.fiverr.com/hassanxpert1" target="_blank" rel="noreferrer" className="btn btn-outline">
-            <SiFiverr /> View Fiverr Profile
-          </a>
         </div>
       </section>
 
@@ -92,7 +88,6 @@ function HireMe() {
         <h2 className="section-title"> Services I Offer</h2>
 
         <div className="services-grid">
-          {/* FIXED: removed duplicate spread */}
           {services.map((s, i) => (
             <div className="service-card" key={i}>
               <span className="service-icon">{s.icon}</span>
@@ -111,13 +106,6 @@ function HireMe() {
             <div>
               <p className="contact-label">Email</p>
               <p className="contact-value">mhassan2u12@gmail.com</p>
-            </div>
-          </div>
-          <div className="contact-card">
-            <SiFiverr className="contact-icon" />
-            <div>
-              <p className="contact-label">Fiverr</p>
-              <p className="contact-value">hassanxpert1</p>
             </div>
           </div>
         </div>
